@@ -1,0 +1,19 @@
+{
+  "name": "prisma-vercel-deployment-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^2.18.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "2.15.0",
+    "prisma": "^2.18.0"
+  }
+}
